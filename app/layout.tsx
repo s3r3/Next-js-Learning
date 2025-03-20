@@ -1,6 +1,6 @@
-import '@/app/ui/global.css';
-import { lusitana, pacifico } from '@/app/ui/fonts';
- 
+import "@/app/ui/global.css";
+import { inter } from "@/app/ui/fonts";
+
 export default function RootLayout({
   children,
 }: {
@@ -8,12 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${pacifico.className} antialiased`}>{children}</body>
-      <div className={`${lusitana.className} text-xl text-gray-600 flex w-full justify-center items-center pb-10`}>
-      <p>JOJO lOGI</p>
-
-      </div>
-      
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }

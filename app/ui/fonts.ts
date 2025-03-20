@@ -1,6 +1,6 @@
-import { Pacifico, Lusitana } from 'next/font/google';
+import { Inter, Lusitana } from 'next/font/google';
 
-export const pacifico = Pacifico({
+export const inter = Inter({
   subsets: ['latin'],
   weight: '400',
 });
